@@ -1,0 +1,17 @@
+.blur {
+    position: absolute;
+    width: 321px;
+    height: 321px;
+    left: -29;
+    top: 424px;
+    background-color: var(--button);
+    filter: blur(200px);
+    z-index: -1;
+}
+
+.blur.-dois {
+    left: 1198px;
+    top: -63px;
+    z-index: -1;
+    filter: blur(200px);
+}
